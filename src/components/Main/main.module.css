@@ -1,0 +1,485 @@
+.MainContainer {
+    width: 1230px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: auto;
+}
+.TopContainer {
+    width: 100%;
+}
+.TopWrapper {
+    width: 1200px;
+    margin: 0 auto 25px;
+}
+.TopArticle {
+    display: flex;
+}
+.TopArticleImage {
+    width: 384px;
+    margin-right: 12.5px;
+}
+.TopArticleContent {
+    width: 791px;
+    margin-left: 12.5px;
+    border-bottom: 1px solid #000;
+}
+.TopArticleTitle {
+    font-size: 46px;
+    line-height: 48px;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.TopArticleFlex {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.TopArticleText {
+    max-width: 230px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.Latest_Weekends_Container {
+    width: 1200px;
+    margin: 0 auto 25px;
+    display: flex;
+}
+.LatestContainer {
+    width: 150px;
+    margin-right: 50px; 
+    display: flex;
+    flex-direction: column;
+}
+.LatestTitle  {
+    color: #ff0404;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin: 0;
+}
+.MostRead {
+    margin-top: 25px;
+    color: #000;
+    font-weight: inherit;
+}
+.WeekendsContainer {
+    width: 650px;
+}
+.WeekendsTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+.WeekendsTitle {
+    font-family: "BWHaasGrotesk-95Black-Web",Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    display: block;
+    flex-basis: 100%;
+    line-height: .8;
+    padding-bottom: 7px;
+    overflow: hidden;
+    white-space: normal;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.WeekendsImage {
+    max-height: 600px;
+    margin-right: 12.5px;
+    width: calc(50% - 12.5px);
+}
+.WeekendsText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5px;
+    width: calc(50% - 12.5px);
+}
+.WeekendsCategory {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.WeekendsTopTitle {
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.1;
+    padding-bottom: 28px;
+    border-bottom: 1px dotted #000;
+    display: block;
+}
+.WeekendsTopText {
+    margin: 0;
+    border-bottom: 1px dotted #000;
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+}
+.WeekendsNews {
+    display: flex;
+    margin-bottom: 25px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.WeekendsLiveContainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.WeekendsLive {
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 12.5px;
+    margin-right: 12.5px;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    width: calc((100% - (3 - 1) * 25px) / 3 - 1px);
+    position: relative;
+}
+.WeekendsLiveImage {
+    padding-top: 10px;
+}
+.WeekendsLiveContent {
+    min-height: 139px;
+    width: 100%;
+}
+.WeekendsLiveContent>video {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.BloombergTV {
+    color: #fff;
+    font-size: 10px;
+    padding-top: 20px;
+    text-transform: uppercase; 
+}
+.BloombergText {
+    color: #fff;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.1;
+    padding-top: 10px;
+}
+.WeekendsLiveText {
+    box-sizing: content-box;
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    width: calc((100% - (3 - 1) * 25px) / 3 - 1px);
+    position: relative;
+    padding-bottom: 32px;
+    border-bottom: 1px dotted #000;
+}
+.WeekendsLiveText>img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.WeekendsLiveTitle {
+    margin-bottom: 12px;
+    max-width: 100%;
+
+}
+.WeekendsLastContent {
+    padding-left: 12.5px;
+    width: calc((100% - (3 - 1) * 25px) / 3 - 1px);
+    padding-bottom: 32px;
+    border-bottom: 1px dotted #000;  
+}
+.TopRightContainer {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    margin-left: 50px;
+}
+.TopRightContent {
+    padding: 0;
+    margin: 0 0 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.TopRightTitle {
+    font-family: "BWHaasGrotesk-95Black-Web",Helvetica,Arial,sans-serif;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 7px 0;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #0068ff;
+}
+.TopRightTitle:before {
+    color: #000;
+    content: "Bloomberg";
+    margin-right: 0.25ch;
+}
+.TopRightText {
+    margin: 12px 0 0;
+    padding: 0 0 12px;
+    border-bottom: 1px dotted #000;
+    padding-top: 0;
+}
+.TopRightSubtitle {
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.07;
+    padding-bottom: 4px;
+    color: #0068ff;
+}
+.TopRightContentTitle {
+    width: 100%;
+    max-width: 100%;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+.RightOpinion {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    padding: 9px 0;
+    border-bottom: 1px dotted #000;
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.OpinionText {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 10px;
+    letter-spacing: .2px;
+}
+.SubscriptionTitle {
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.GalleryTopContainer {
+    width: 100%;
+}
+.GalleryFlexContainer {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.GalleryFlexTitle {
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: "BWHaasGrotesk-95Black-Web",Helvetica,Arial,sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.QuicktakeContainer {
+    width: 1200px;
+    margin: 0 auto 25px;
+    padding-bottom: 20px;
+}
+.QuicktakeTitle {
+    display: flex;
+    margin-bottom: 20px;
+}
+.QuicktimeTitleImage {
+    height: 43px;
+}
+.QuicktakeSubtitle {
+    color: #000;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+.QuicktakeFlexContainer {
+    display: flex;
+    width: 100%;
+}
+.QuicktakeLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.QuicktakeLeftTitle {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    margin: 0;
+}
+.QuicktakeLeftContent {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #000;
+}
+.QuicktakeLeft_OnNow {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 6px;
+}
+.QuicktakeLeftContentTitle {
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin-bottom: 14px;
+    margin-right: 10px;
+    margin-top: 6px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.QuicktakeLiveStreamContainer {
+    height: auto;
+    margin: 0 2.25rem;
+    width: 645px;
+    height: 363px;
+    background-color: #000;
+}
+.QuicktakeRight {
+    flex:2;
+}
+.QuicktakeRight_OnNow {
+    color: #000;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+.QuicktakeRight>h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.QuicktakeRight>p {
+    margin: 0;
+}
+.QuicktakeVideoGallery {
+    display: flex;
+    justify-content: space-between;
+}
+.QuicktakeVideoItem {
+    margin-top: 20px;
+    width: 23%;
+    border-bottom: 1px solid #000;
+    padding-bottom: 24px;
+}
+.QuicktakeVideoImage {
+    width: 100%;
+    display: block;
+}
+.QuicktakeVideoTitle {
+    padding-top: 15px;
+    color: #000;
+    text-decoration: none;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+}
+.CityLabTitle {
+    height: 60px;
+    width: 364px;
+    background: url(https://assets.bwbx.io/s3/javelin/public/javelin/images/bloomberg-citylab-logo-8d31356b65.svg) no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 1200px;
+}
+.GreenTopContainer {
+    width: 1200px;
+    margin: 0 auto 25px;
+    display: flex;
+}
+.GreenLeftContainer {
+    width: 850px;
+}
+.GreenTop{
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GreenTopTitle {
+    font-family: "BWHaasGrotesk-95Black-Web",Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    display: block;
+    width: 100%;
+    line-height: .8;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.GreenImage {
+    height: auto;
+    margin-right: 12.5px;
+    margin-left: 0;
+    width: calc(50% - 12.5px);
+}
+.GreenTopText {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    border-bottom: 1px dotted #000;
+    margin: 0;
+    margin-left: 12.5px;
+    width: calc(50% - 12.5px);
+}
+.GreenTopCategory {
+    font-size: 14px;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    margin-bottom: 5px;
+}
+.GreenTopMainTitle {
+    line-height: 1.1;
+    margin-bottom: 8px;
+    color: #000;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.GreenFlexCOntainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.GreenRightContainer {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    margin-left: 50px;
+}
+.GreenRightImage {
+    box-shadow: 0 5px 12px 0 rgb(0 0 0 / 50%);
+}
+.GalleryShortFlexContainer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.GalleryDefautContainer {
+    width: 1200px;
+}

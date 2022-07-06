@@ -1,0 +1,27 @@
+.NewsItemContainer {
+    padding: 10px 0 12px;
+    border-bottom: 1px dotted #000;
+}
+
+.NewsItemCategory {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.NewsItemTitle {
+    padding: 3px 0;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.NewsItemTime {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    color: #767676;
+    font-size: 12px;
+    line-height: 18px;
+}

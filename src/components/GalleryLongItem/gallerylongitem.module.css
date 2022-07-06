@@ -1,0 +1,20 @@
+.GalleryContainer {
+    width: calc((100% - (6 - 1) * 25px) / 6 - 1px);
+    padding-bottom: 32px;
+    border-bottom: 1px dotted #000;
+}
+.GalleryImage {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.GalleryCategory {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+.GalleryTitle {
+    margin-bottom: 12px;
+    max-width: 100%;
+    font-weight: 700;
+}

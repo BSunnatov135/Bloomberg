@@ -1,0 +1,131 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.NavbarContainer {
+    position: sticky;
+    width: 1230px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-top: unset;
+}
+.NavbarTop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px 15px 0; 
+    align-items: center;
+}
+.NavbarTop_Left {
+    display: flex;
+    flex-direction: column;
+}
+.NavbarTop_Logo {
+    font-family: Bloomberg Logotypes-Medium,sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    text-decoration: none;
+    color: #000;
+}
+.NavbarTop_LogoText {
+    margin: 0;
+    font-size: 36px;
+    text-decoration: none;
+}
+.NavbarTopLink {
+    text-decoration: none;
+}
+.NavbarTopEdition {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 2px 6px 7px;
+    font-family: BWHaasGrotesk-55Roman-Web,sans-serif;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+.NavbarTopRight {
+    display: flex;
+    margin:0;
+}
+.NavbarTopRightLink {
+    padding: 7px 6px;
+    font-size: 14px;
+}
+.NavbarTopRightSubscribe {
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 7px 6px;
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 8px;
+    font-family: BWHaasGrotesk-75Bold-Web,sans-serif;
+}
+.NavbarTopRightSearch {
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+    line-height: 1;
+    font-family: BWHaasGrotesk-55Roman-Web,sans-serif;
+    margin-left: 8px;
+}
+.NavbarTopRightSearchIcon {
+    height: 14px;
+    width: 14px;
+    mask-image: url(https://assets.bwbx.io/s3/navi/images/search_black-a5644f077b.svg);
+    background-color: #000;
+}
+.Navigation {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid #000;
+    font-size: 14px;   
+    flex-direction: row;
+    line-height: 1;
+}
+.NavigationLeft {
+    border-right: 1px solid #000;
+    width: 100px;
+    text-align: center;
+    padding: 13px 8px;
+    text-decoration: bold;
+}
+.NavigationLeft::before {
+    content: "";
+    margin-right: 1px;
+    margin-bottom: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+.NavigationMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.NaviItem {
+    padding: 13px 8px;
+}
+.NavRight {
+    border-left:1px solid #000;
+    width: 74px;
+    text-align: center;
+}
+.NavRight::after {
+    content: "";
+    position:absolute;;
+    width: 2px;
+    height: 2px;
+    margin-left: 6px;
+    margin-top: 6px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px, 0 6px 0 1px, 0 -6px 0 1px;
+    background-color: #000;
+}

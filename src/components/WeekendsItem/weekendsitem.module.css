@@ -1,0 +1,25 @@
+.WeekendsItemContainer {
+   padding-left: 0;
+   padding-right: 12.5px ; 
+   padding-bottom: 32px;
+   border-bottom: 1px dotted #000;
+   width: calc((100% - (4 - 1) * 25px) / 4 - 1px);
+}
+.WeekendsItemContainer:nth-of-type(1n +5) {
+    padding-top: 25px;
+}
+.WeekendsItemCategory {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+}
+.WeekendsItemTitle {
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: "BWHaasGrotesk-75Bold-Web",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.1;
+    text-decoration: none;
+    font-weight: 600;
+}

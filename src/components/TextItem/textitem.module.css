@@ -1,0 +1,29 @@
+.TextItemContainer {
+    width: calc((100% - (4 - 1) * 25px) / 4 - 1px);
+    padding-bottom: 25px;
+    border-bottom: 1px dotted #000;
+}
+.TextItemContainer:nth-child(n+5) {
+    padding-top: 25px;
+}
+.TextItemCategory {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+.TextItemTitle {
+    margin-bottom: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 700;
+}
+.TextItemTime {
+    font-family: "BWHaasGrotesk-55Roman-Web",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    color: #767676;
+    position: absolute;
+    bottom: 20px;
+    display: block;
+}
