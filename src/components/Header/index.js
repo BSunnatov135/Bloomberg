@@ -3,7 +3,7 @@ import styles from './header.module.css'
 function Header () {
     return (
         <nav className={styles.NavbarContainer}>
-          <div className={styles.NavbarTop}>
+        <div className={styles.NavbarTop}>
             <div className={styles.NavbarTop_Left}>
                 <a href='#' className={styles.NavbarTopLink}>
                     <div className={styles.NavbarTop_Logo}>
@@ -23,8 +23,8 @@ function Header () {
                     <div className={styles.NavbarTopRightSearchIcon}></div>
                 </a>
             </div>
-          </div>
-          <div className={styles.Navigation}>
+        </div>
+        <div className={styles.Navigation}>
             <div className={styles.NavigationLeft}><b>Live Now</b></div>
             <div className={styles.NavigationMain}>
                 <div className={styles.NaviItem}><a href='#'>Markets</a></div>
@@ -42,7 +42,7 @@ function Header () {
             <div className={`${styles.NaviItem} ${styles.NavRight}`}>
                 <a href='#'>More</a>   
             </div>
-          </div>
+            </div>
         </nav>
     );
 }

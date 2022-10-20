@@ -33,12 +33,12 @@ function Main () {
                     <h3 className={styles.LatestTitle}>Latest</h3>
                     <div className={styles.LatestMap}>
                     {latests.map(latest=>(
-                         <NewsItem key={latest.id} title={latest.title} category={latest.category} time={latest.time}/>
+                        <NewsItem key={latest.id} title={latest.title} category={latest.category} time={latest.time}/>
                     ))}
                     </div>
                     <h3 className={`${styles.LatestTitle} ${styles.MostRead}`}>most read</h3>
                     {mostreads.map(mostread=>(
-                         <NewsItem key={mostread.id} title={mostread.title} category={mostread.category}/>
+                        <NewsItem key={mostread.id} title={mostread.title} category={mostread.category}/>
                     ))}
                 </div>
                 <div className={styles.WeekendsContainer}>
